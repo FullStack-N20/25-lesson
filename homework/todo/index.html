@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Add Task</h2>
+    <form id="taskForm">
+      <label for="task">Task</label>
+      <input type="text" id="task" placeholder="Enter Task" required />
+
+      <label for="status">Status</label>
+      <select id="status" required>
+        <option value="">Select Status</option>
+        <option value="Completed">Completed</option>
+        <option value="Ongoing">Ongoing</option>
+        <option value="Pending">Pending</option>
+      </select>
+
+      <label for="deadline">Deadline</label>
+      <input type="datetime-local" id="deadline" required />
+
+      <button type="submit">Add Task</button>
+    </form>
+    <div class="nav-button">
+      <a href="list.html" class="list-tasks-btn">View All Tasks</a>
+    </div>
+  </div>
+
+  <script src="todo.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "books-app",
+  "version": "1.0.0",
+  "description": "A simple book management system with CRUD operations",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["books", "crud", "nodejs"],
+  "author": "",
+  "license": "ISC"
+} 
